@@ -1,0 +1,9 @@
+/ (root)
+├── package.json        ← root level
+├── vercel.json         ← root level
+├── .env                ← root level
+├── public/
+│   └── index.html      ← MUST be inside "public" folder
+└── src/
+    ├── index.js        ← MUST be inside "src" folder
+    └── App.jsx         ← MUST be inside "src" folder
